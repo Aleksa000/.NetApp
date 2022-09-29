@@ -4,7 +4,7 @@ using USP.Web.Models;
 
 namespace USP.Web.Controllers;
 
-public class HomeController : Controller
+public class HomeController : Controller//:nasledjivanje metode 
 {
     private readonly ILogger<HomeController> _logger;
 
@@ -15,7 +15,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View();
+        return View();//vraca neki html
     }
 
     public IActionResult Privacy()
