@@ -5,15 +5,8 @@
     <projectFile profileName="USP.Web">USP.Web/USP.Web.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b57b1d1b-f079-4b7d-94fe-0ee10b39491e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/USP.Web/Models/UserModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USP.Web/Views/Home/CreateUser.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USP.Web/Views/Home/Users.cshtml" afterDir="false" />
+    <list default="true" id="b57b1d1b-f079-4b7d-94fe-0ee10b39491e" name="Changes" comment="v1">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.USP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.USP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Web/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Web/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/staticwebassets.pack.sentinel" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +16,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/575c31ecc35a636b6f962cb71d53992552941a18982aae1c8e6c16305cc3761b/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/USP.Web/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/38160/OneDrive/Documents/GitHub/USP/USP/USP.Web/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/38160/OneDrive/Documents/GitHub/USP/USP/USP.Web/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -35,17 +26,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "XThreadsFramesViewSplitterKey": "0.49464667",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.49464667&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.USP.Web">
     <configuration name="USP.Web" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/USP.Web/USP.Web.csproj" />
@@ -93,6 +84,7 @@
       <workItem from="1664450278839" duration="285000" />
       <workItem from="1664451060237" duration="3000" />
       <workItem from="1664533182906" duration="12731000" />
+      <workItem from="1664564944294" duration="391000" />
     </task>
     <task id="LOCAL-00001" summary="mala izmena teksta">
       <created>1664536170800</created>
@@ -108,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664537069927</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="v1">
+      <created>1664565023757</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664565023757</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,7 +130,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="mala izmena teksta" />
     <MESSAGE value="Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test" />
+    <MESSAGE value="v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
