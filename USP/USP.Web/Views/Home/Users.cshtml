@@ -1,0 +1,18 @@
+﻿@model List<UserModel>
+@{
+    ViewData["Title"] = "Users Page";
+}
+
+@foreach (var t in Model)
+{
+    <h1>@t.Id</h1>
+    @:<br>
+    <h1>@t.UserName</h1>
+    @:<br>
+    <h1>@t.FirstName</h1>
+    @:<br>
+    <h1>@t.LastName</h1>
+    @:<br>
+    <h1>@t.Email</h1>
+    @:<br>
+}

@@ -15,12 +15,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Web
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/38160/OneDrive/Documents/GitHub/USP/USP/USP.Web/Views/Home/CreateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGVVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/38160/OneDrive/Documents/GitHub/USP/USP/USP.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/38160/OneDrive/Documents/GitHub/USP/USP/USP.Web/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/38160/OneDrive/Documents/GitHub/USP/USP/USP.Web/Views/Home/Users.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVc2Vycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/38160/OneDrive/Documents/GitHub/USP/USP/USP.Web/Views/Shared/Error.cshtml]
