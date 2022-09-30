@@ -7,8 +7,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b57b1d1b-f079-4b7d-94fe-0ee10b39491e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.USP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.USP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Web/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Web/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/Views/Home/Index.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +76,8 @@
       <workItem from="1664371546824" duration="1119000" />
       <workItem from="1664372734461" duration="608000" />
       <workItem from="1664373396797" duration="2413000" />
+      <workItem from="1664450278839" duration="285000" />
+      <workItem from="1664451060237" duration="3000" />
     </task>
     <servers />
   </component>
