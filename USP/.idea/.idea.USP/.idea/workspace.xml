@@ -5,7 +5,36 @@
     <projectFile profileName="USP.Web">USP.Web/USP.Web.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b57b1d1b-f079-4b7d-94fe-0ee10b39491e" name="Changes" comment="a" />
+    <list default="true" id="b57b1d1b-f079-4b7d-94fe-0ee10b39491e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/USP.Services/UserService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/Areas/Product/Controllers/HomeController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/Areas/Product/Views/Home/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/Areas/Product/Views/_ViewImports.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/Areas/Product/Views/_ViewStart.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.USP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.USP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/Models/ErrorViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/Models/UserModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/USP.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/USP.Web.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/Views/Home/CreateUser.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/Views/Home/CreateUser.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/Views/Shared/Error.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/Views/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/Views/_ViewImports.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/bin/Debug/net6.0/USP.Web.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/bin/Debug/net6.0/USP.Web.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/obj/USP.Web.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/USP.Web.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/obj/USP.Web.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/USP.Web.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/staticwebassets.pack.sentinel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.sln" beforeDir="false" afterPath="$PROJECT_DIR$/USP.sln" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +48,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FOhm5ypUTnH7l3wQNIq8LjRaOc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -82,7 +113,8 @@
       <workItem from="1664450278839" duration="285000" />
       <workItem from="1664451060237" duration="3000" />
       <workItem from="1664533182906" duration="12731000" />
-      <workItem from="1664564944294" duration="2739000" />
+      <workItem from="1664564944294" duration="3596000" />
+      <workItem from="1664795192267" duration="6240000" />
     </task>
     <task id="LOCAL-00001" summary="mala izmena teksta">
       <created>1664536170800</created>
@@ -126,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664567678784</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=".">
+      <created>1664567795366</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664567795366</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,26 +192,10 @@
     <MESSAGE value="n" />
     <MESSAGE value="i" />
     <MESSAGE value="a" />
-    <option name="LAST_COMMIT_MESSAGE" value="a" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/USP.Web/Controllers/HomeController.cs</url>
-          <line>57</line>
-          <properties documentPath="C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Web\Controllers\HomeController.cs" initialLine="57" containingFunctionPresentation="method 'CreateUser'">
-            <startOffsets>
-              <option value="1493" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1494" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Type#System.Collections.Generic.List`1" memberName="Count" />

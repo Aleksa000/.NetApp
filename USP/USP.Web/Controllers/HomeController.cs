@@ -1,16 +1,20 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using USP.Web.Models;
+using USP.Models;
+using USP.Models;
+using USP.Services;
 
 namespace USP.Web.Controllers;
 
 public class HomeController : Controller//:nasledjivanje metode 
 {
     private readonly ILogger<HomeController> _logger;
+    private readonly IUserService _userService;
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(ILogger<HomeController> logger, IUserService userService)
     {
         _logger = logger;
+        _userService = userService;
     }
 
     public IActionResult Index()
@@ -25,29 +29,7 @@ public class HomeController : Controller//:nasledjivanje metode
     [HttpGet]
     public IActionResult Users()
     {
-        var userModel = new UserModel//prepoznaje sam tip podataka o kome se radi
-        {
-            Id = 1,
-            UserName = "Aleksa1",
-            FirstName = "Aleksa",
-            LastName = "Grbic",
-            Email = "aleksa.grbic00@gmail.com",
-        };
-        var userModel2 = new UserModel//prepoznaje sam tip podataka o kome se radi
-        {
-            Id = 2,
-            UserName = "Aleksa2",
-            FirstName = "Aleksa",
-            LastName = "Savic",
-            Email = "aleksa.savic00@gmail.com",
-        };
-
-        var listOfUserModel = new List<UserModel>();
-        
-        listOfUserModel.Add(userModel);
-        listOfUserModel.Add(userModel2);
-        
-        return View(listOfUserModel);//vraca neki html
+        return View(_userService.GetAll());//vraca neki html
     }
     /// <summary>
     /// Create user - post metod
@@ -70,11 +52,5 @@ public class HomeController : Controller//:nasledjivanje metode
     public IActionResult Privacy()
     {
         return View();
-    }
-
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
 }

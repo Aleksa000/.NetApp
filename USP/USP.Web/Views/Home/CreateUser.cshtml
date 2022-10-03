@@ -7,17 +7,17 @@
         <div class="mb-2">
             <label asp-for="Id" class="form-label" ></label>
             <input asp-for="Id" class="form-control">
-
+            <span asp-validation-for="Id"></span>
         </div>
         <div class="mb-2">
             <label asp-for="UserName" class="form-label"></label>
             <input asp-for="UserName" class="form-control">
-
+            
         </div>
         <div class="mb-2">
             <label asp-for="FirstName" class="form-label"></label>
             <input asp-for="FirstName" class="form-control">
-            
+             <span asp-validation-for="FirstName"></span>
         </div>
         <div class="mb-2">
             <label asp-for="LastName" class="form-label"></label>
@@ -27,7 +27,18 @@
         <div class="mb-2">
             <label asp-for="Email" class="form-label"></label>
             <input asp-for="Email" class="form-control">
+            <span asp-validation-for="Email"></span>
         </div>
+        <div class="mb-2">
+            <label asp-for="Password" class="form-label"></label>
+            <input asp-for="Password" class="form-control">
+            <span asp-validation-for="Password"></span>
+        </div>
+         <div class="mb-2">
+                            <label asp-for="ComparePassword" class="form-label"></label>
+                            <input asp-for="ComparePassword" class="form-control">
+                             <span asp-validation-for="ComparePassword"></span>
+                        </div>
         <div class="mb-2">
             <button type="submit" class="btn btn-primary">Submit</button>
         </div>
