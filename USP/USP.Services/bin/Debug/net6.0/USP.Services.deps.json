@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "USP.Services/1.0.0": {
+        "dependencies": {
+          "USP.Models": "1.0.0"
+        },
+        "runtime": {
+          "USP.Services.dll": {}
+        }
+      },
+      "USP.Models/1.0.0": {
+        "runtime": {
+          "USP.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "USP.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "USP.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
