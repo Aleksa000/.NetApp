@@ -9,7 +9,7 @@ namespace USP.Web.Controllers;
 public class HomeController : Controller//:nasledjivanje metode 
 {
     private readonly ILogger<HomeController> _logger;
-    private readonly IUserService _userService;
+    private readonly IUserService _userService;//pravimo di
 
     public HomeController(ILogger<HomeController> logger, IUserService userService)
     {

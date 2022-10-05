@@ -3084,6 +3084,16 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "USP.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/USP.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/USP.Data.dll": {}
+        }
+      },
       "USP.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -8954,6 +8964,11 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "USP.Data/1.0.0": {
+      "type": "project",
+      "path": "../USP.Data/USP.Data.csproj",
+      "msbuildProject": "../USP.Data/USP.Data.csproj"
+    },
     "USP.Models/1.0.0": {
       "type": "project",
       "path": "../USP.Models/USP.Models.csproj",
@@ -8968,6 +8983,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.10",
+      "USP.Data >= 1.0.0",
       "USP.Models >= 1.0.0",
       "USP.Services >= 1.0.0"
     ]
@@ -8997,6 +9013,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\38160\\OneDrive\\Documents\\GitHub\\USP\\USP\\USP.Data\\USP.Data.csproj": {
+              "projectPath": "C:\\Users\\38160\\OneDrive\\Documents\\GitHub\\USP\\USP\\USP.Data\\USP.Data.csproj"
+            },
             "C:\\Users\\38160\\OneDrive\\Documents\\GitHub\\USP\\USP\\USP.Models\\USP.Models.csproj": {
               "projectPath": "C:\\Users\\38160\\OneDrive\\Documents\\GitHub\\USP\\USP\\USP.Models\\USP.Models.csproj"
             },

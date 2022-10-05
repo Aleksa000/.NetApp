@@ -1,3 +1,4 @@
+using USP.Data;
 using USP.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -5,6 +6,9 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<IUserService, UserService>();
+//nacin zivota odredjenog servisa
+
+builder.Services.Configure<MongoSettings>(builder.Configuration.GetSection("MongoSettings"));
 
 var app = builder.Build();
 

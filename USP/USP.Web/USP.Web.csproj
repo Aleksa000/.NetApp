@@ -20,6 +20,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\USP.Data\USP.Data.csproj" />
       <ProjectReference Include="..\USP.Models\USP.Models.csproj" />
       <ProjectReference Include="..\USP.Services\USP.Services.csproj" />
     </ItemGroup>
