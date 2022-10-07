@@ -14,7 +14,7 @@ public class ProductRepository : IProductRespository
     private readonly IMongoClient _mongoClient;
     private readonly IMongoDatabase _mongoDatabase;
     private readonly IMongoCollection<Product> _mongoCollection;
-    public ProductRepository(IOptions<MongoSettings> mongoSettings)
+    public ProductRepository(IOptions<MongoSettings> mongoSettings)//za citanje iz appsettings fajla
     {
         _mongoClient = new MongoClient(mongoSettings.Value.Connection);
         _mongoDatabase = _mongoClient.GetDatabase(mongoSettings.Value.DatabaseName);
