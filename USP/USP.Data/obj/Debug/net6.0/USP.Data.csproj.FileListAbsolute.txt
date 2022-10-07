@@ -1,0 +1,12 @@
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Data\bin\Debug\net6.0\USP.Data.deps.json
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Data\bin\Debug\net6.0\USP.Data.dll
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Data\bin\Debug\net6.0\USP.Data.pdb
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Data\obj\Debug\net6.0\USP.Data.csproj.AssemblyReference.cache
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Data\obj\Debug\net6.0\USP.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Data\obj\Debug\net6.0\USP.Data.AssemblyInfoInputs.cache
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Data\obj\Debug\net6.0\USP.Data.AssemblyInfo.cs
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Data\obj\Debug\net6.0\USP.Data.csproj.CoreCompileInputs.cache
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Data\obj\Debug\net6.0\USP.Data.dll
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Data\obj\Debug\net6.0\refint\USP.Data.dll
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Data\obj\Debug\net6.0\USP.Data.pdb
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Data\obj\Debug\net6.0\ref\USP.Data.dll

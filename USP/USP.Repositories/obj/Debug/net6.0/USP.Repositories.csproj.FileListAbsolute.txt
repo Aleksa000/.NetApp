@@ -1,0 +1,15 @@
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Repositories\bin\Debug\net6.0\USP.Repositories.deps.json
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Repositories\bin\Debug\net6.0\USP.Repositories.dll
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Repositories\bin\Debug\net6.0\USP.Repositories.pdb
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Repositories\bin\Debug\net6.0\USP.Data.dll
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Repositories\bin\Debug\net6.0\USP.Data.pdb
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Repositories\obj\Debug\net6.0\USP.Repositories.csproj.AssemblyReference.cache
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Repositories\obj\Debug\net6.0\USP.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Repositories\obj\Debug\net6.0\USP.Repositories.AssemblyInfoInputs.cache
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Repositories\obj\Debug\net6.0\USP.Repositories.AssemblyInfo.cs
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Repositories\obj\Debug\net6.0\USP.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Repositories\obj\Debug\net6.0\USP.Repositories.csproj.CopyComplete
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Repositories\obj\Debug\net6.0\USP.Repositories.dll
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Repositories\obj\Debug\net6.0\refint\USP.Repositories.dll
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Repositories\obj\Debug\net6.0\USP.Repositories.pdb
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Repositories\obj\Debug\net6.0\ref\USP.Repositories.dll
