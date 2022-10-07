@@ -8,6 +8,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\USP.Models\USP.Models.csproj" />
+      <ProjectReference Include="..\USP.Repositories\USP.Repositories.csproj" />
     </ItemGroup>
 
 </Project>

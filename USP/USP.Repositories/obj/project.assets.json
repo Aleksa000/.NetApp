@@ -312,6 +312,9 @@
       "USP.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MongoDB.Bson": "2.17.1"
+        },
         "compile": {
           "bin/placeholder/USP.Data.dll": {}
         },

@@ -1,1 +1,10 @@
-﻿<h1>test</h1>
+﻿@model List<ProductModel>
+
+@foreach (var item in Model)
+{
+    <h1>@item.Id</h1>
+    <br/>
+    <h1>@item.Name</h1>
+    <br/>
+    <h1>@item.Price</h1>
+}

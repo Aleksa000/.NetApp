@@ -37,6 +37,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -110,6 +116,73 @@
         }
       }
     },
+    "C:\\Users\\38160\\OneDrive\\Documents\\GitHub\\USP\\USP\\USP.Repositories\\USP.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\38160\\OneDrive\\Documents\\GitHub\\USP\\USP\\USP.Repositories\\USP.Repositories.csproj",
+        "projectName": "USP.Repositories",
+        "projectPath": "C:\\Users\\38160\\OneDrive\\Documents\\GitHub\\USP\\USP\\USP.Repositories\\USP.Repositories.csproj",
+        "packagesPath": "C:\\Users\\38160\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\38160\\OneDrive\\Documents\\GitHub\\USP\\USP\\USP.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\38160\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\38160\\OneDrive\\Documents\\GitHub\\USP\\USP\\USP.Data\\USP.Data.csproj": {
+                "projectPath": "C:\\Users\\38160\\OneDrive\\Documents\\GitHub\\USP\\USP\\USP.Data\\USP.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\38160\\.dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\38160\\OneDrive\\Documents\\GitHub\\USP\\USP\\USP.Services\\USP.Services.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -134,6 +207,9 @@
             "projectReferences": {
               "C:\\Users\\38160\\OneDrive\\Documents\\GitHub\\USP\\USP\\USP.Models\\USP.Models.csproj": {
                 "projectPath": "C:\\Users\\38160\\OneDrive\\Documents\\GitHub\\USP\\USP\\USP.Models\\USP.Models.csproj"
+              },
+              "C:\\Users\\38160\\OneDrive\\Documents\\GitHub\\USP\\USP\\USP.Repositories\\USP.Repositories.csproj": {
+                "projectPath": "C:\\Users\\38160\\OneDrive\\Documents\\GitHub\\USP\\USP\\USP.Repositories\\USP.Repositories.csproj"
               }
             }
           }

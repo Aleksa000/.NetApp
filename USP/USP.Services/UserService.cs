@@ -13,7 +13,7 @@ public class UserService : IUserService
     {
         var userModel = new UserModel//prepoznaje sam tip podataka o kome se radi
         {
-            Id = 1,
+            Id = "1",
             UserName = "Aleksa1",
             FirstName = "Aleksa",
             LastName = "Grbic",
@@ -21,7 +21,7 @@ public class UserService : IUserService
         };
         var userModel2 = new UserModel//prepoznaje sam tip podataka o kome se radi
         {
-            Id = 2,
+            Id = "2",
             UserName = "Aleksa2",
             FirstName = "Aleksa",
             LastName = "Savic",

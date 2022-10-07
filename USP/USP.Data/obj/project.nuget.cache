@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "WJ7Sh41y6JSeS9E6d0lb+wIYyp9gnv3arKHl5s2QMx1QDV3EdbM+hWmPvr3xmGa/grVx8ONGJCK9xjMcluskbA==",
+  "dgSpecHash": "utDWjqAcjxj+yUVDqZtXCWFjYrE9iTpgEyGxfH/ptGbcKwR7uhP16H2flEXPJpRVuVJTSUIl3EhDFz0i5xARlg==",
   "success": true,
   "projectFilePath": "C:\\Users\\38160\\OneDrive\\Documents\\GitHub\\USP\\USP\\USP.Data\\USP.Data.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\38160\\.nuget\\packages\\mongodb.bson\\2.17.1\\mongodb.bson.2.17.1.nupkg.sha512",
+    "C:\\Users\\38160\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

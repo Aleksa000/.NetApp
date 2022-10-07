@@ -13,3 +13,7 @@ C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Services\obj\Debug\net6.0\U
 C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Services\obj\Debug\net6.0\refint\USP.Services.dll
 C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Services\obj\Debug\net6.0\USP.Services.pdb
 C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Services\obj\Debug\net6.0\ref\USP.Services.dll
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Services\bin\Debug\net6.0\USP.Data.dll
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Services\bin\Debug\net6.0\USP.Repositories.dll
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Services\bin\Debug\net6.0\USP.Repositories.pdb
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Services\bin\Debug\net6.0\USP.Data.pdb
