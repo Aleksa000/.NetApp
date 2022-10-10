@@ -1,7 +1,10 @@
-﻿namespace USP.Data;
+﻿#nullable disable
+using MongoDbGenericRepository.Attributes;
 
-public class User
+namespace USP.Data;
+
+[CollectionName("users")]
+public class User : Base
 {
-    public string Id { get; set; }
     public string FullName { get; set; }
 }

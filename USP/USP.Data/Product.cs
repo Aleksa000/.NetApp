@@ -1,20 +1,20 @@
-﻿using MongoDB.Bson;
+﻿#nullable disable
 using MongoDB.Bson.Serialization.Attributes;
+using MongoDbGenericRepository.Attributes;
 
 namespace USP.Data;
 
-public class Product
+[CollectionName("products")]
+public class Product : Base
 {
-    [BsonId]
-    [BsonElement("_id")]
-    public ObjectId Id { get; set; }
+ 
     [BsonElement("name")]
-    public string? Name  { get; set; }
+    public string Name  { get; set; }
     
     [BsonElement("price")]
-    public int? Price  { get; set; }
+    public int Price  { get; set; }
     
     [BsonElement("category")]
-    public string? Category  { get; set; }
+    public string Category  { get; set; }
     
 }

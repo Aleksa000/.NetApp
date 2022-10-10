@@ -41,6 +41,10 @@
             "MongoDB.Bson": {
               "target": "Package",
               "version": "[2.17.1, )"
+            },
+            "MongoDbGenericRepository": {
+              "target": "Package",
+              "version": "[1.4.8, )"
             }
           },
           "imports": [

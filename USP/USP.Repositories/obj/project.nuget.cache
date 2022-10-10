@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oqI8wh5JIjHG0dhHrZaGvynCmX+U9/Cl4Mw+0n0gjehjUxxFlPin6qCnX1u4I+2IBGM/KLer01e4XLflGad14g==",
+  "dgSpecHash": "Koq4GFQ5k9e39Cm2fIYRgo1Pm1J0efkdUfq1mORV94lT3GISzPTQttQYwXP3NqAVcOt4Bl3By1Zzuv09q8XIuw==",
   "success": true,
   "projectFilePath": "C:\\Users\\38160\\OneDrive\\Documents\\GitHub\\USP\\USP\\USP.Repositories\\USP.Repositories.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\38160\\.nuget\\packages\\mongodb.driver\\2.17.1\\mongodb.driver.2.17.1.nupkg.sha512",
     "C:\\Users\\38160\\.nuget\\packages\\mongodb.driver.core\\2.17.1\\mongodb.driver.core.2.17.1.nupkg.sha512",
     "C:\\Users\\38160\\.nuget\\packages\\mongodb.libmongocrypt\\1.5.5\\mongodb.libmongocrypt.1.5.5.nupkg.sha512",
+    "C:\\Users\\38160\\.nuget\\packages\\mongodbgenericrepository\\1.4.8\\mongodbgenericrepository.1.4.8.nupkg.sha512",
     "C:\\Users\\38160\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
     "C:\\Users\\38160\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\38160\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",

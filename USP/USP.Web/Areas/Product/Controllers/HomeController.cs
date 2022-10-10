@@ -1,4 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using USP.Data;
 using USP.Models;
 using USP.Services;
 
@@ -8,10 +11,12 @@ public class HomeController : Controller
 {
 
     private readonly IProductService productService;
+    private readonly IMapper mapper;
 
-    public HomeController(IProductService productService)
+    public HomeController(IProductService productService, IMapper mapper)
     {
         this.productService = productService;
+        this.mapper = mapper;
     }
     /// <summary>
     /// index page
@@ -33,7 +38,12 @@ public class HomeController : Controller
 [HttpGet]
     public IActionResult Create()
 {
-    return View();
+    var category1 = new CategoryModel { Id = "12345", Name = "Tehnika" };
+    var category2 = new CategoryModel { Id = "123456", Name = "Tehnika1" };
+    var categories = new List<CategoryModel>();
+    categories.Add(category1);
+    categories.Add(category2);
+    return View(new ProductModel{ Categories = mapper.Map<List<SelectListItem>>(categories) });
 
 }
 /// <summary>

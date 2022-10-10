@@ -229,6 +229,22 @@
           }
         }
       },
+      "MongoDbGenericRepository/1.4.8": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Driver": "2.13.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/MongoDbGenericRepository.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MongoDbGenericRepository.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "SharpCompress/0.30.1": {
         "type": "package",
         "compile": {
@@ -313,7 +329,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "MongoDB.Bson": "2.17.1"
+          "MongoDB.Bson": "2.17.1",
+          "MongoDbGenericRepository": "1.4.8"
         },
         "compile": {
           "bin/placeholder/USP.Data.dll": {}
@@ -605,6 +622,23 @@
         "runtimes/linux/native/libmongocrypt.so",
         "runtimes/osx/native/libmongocrypt.dylib",
         "runtimes/win/native/mongocrypt.dll"
+      ]
+    },
+    "MongoDbGenericRepository/1.4.8": {
+      "sha512": "+cogUUMvXjnc8JUvDwnWitNAKRU7BrOleILH2AeLQnZ/WZNvocRw2PLNBIBlXyBdf3Nt2UtByL12d2lPGwP+VQ==",
+      "type": "package",
+      "path": "mongodbgenericrepository/1.4.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/MongoDbGenericRepository.dll",
+        "lib/net452/MongoDbGenericRepository.xml",
+        "lib/netstandard1.5/MongoDbGenericRepository.dll",
+        "lib/netstandard1.5/MongoDbGenericRepository.xml",
+        "lib/netstandard2.0/MongoDbGenericRepository.dll",
+        "lib/netstandard2.0/MongoDbGenericRepository.xml",
+        "mongodbgenericrepository.1.4.8.nupkg.sha512",
+        "mongodbgenericrepository.nuspec"
       ]
     },
     "SharpCompress/0.30.1": {

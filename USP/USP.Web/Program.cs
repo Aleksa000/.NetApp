@@ -11,6 +11,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<IUserService, UserService>();
 builder.Services.AddTransient<IProductService, ProductService>();
 builder.Services.AddTransient<IProductRepository, ProductRepository>();
+builder.Services.AddTransient<ICategoryService, CategoryService>();
+builder.Services.AddTransient<ICategoryRepository, CategoryRepository>();
 //nacin zivota odredjenog servisa
 
 builder.Services.Configure<MongoSettings>(builder.Configuration.GetSection("MongoSettings"));
