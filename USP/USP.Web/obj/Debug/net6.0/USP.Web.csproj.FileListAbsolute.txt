@@ -263,3 +263,5 @@ C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Web\bin\Debug\net6.0\USP.Da
 C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Web\bin\Debug\net6.0\USP.Repositories.dll
 C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Web\bin\Debug\net6.0\USP.Data.pdb
 C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Web\bin\Debug\net6.0\USP.Repositories.pdb
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Web\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Web\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

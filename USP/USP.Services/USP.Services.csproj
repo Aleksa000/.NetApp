@@ -11,4 +11,8 @@
       <ProjectReference Include="..\USP.Repositories\USP.Repositories.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    </ItemGroup>
+
 </Project>

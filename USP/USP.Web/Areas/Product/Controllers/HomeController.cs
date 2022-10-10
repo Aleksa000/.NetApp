@@ -19,9 +19,42 @@ public class HomeController : Controller
     /// <returns></returns>
     public IActionResult Index()
     {
-        var listOfProducts = productService.GetAll();
+        
         //var insertModel = new ProductModel {Name = "Laptop 1",Price = 1000, Category = "Tehnika"};
         //productService.Insert(insertModel);
-        return View(listOfProducts);
+        
+        return View(productService.GetAll());
     }
+/// <summary>
+/// Create method - get
+/// </summary>
+/// <returns></returns>
+
+[HttpGet]
+    public IActionResult Create()
+{
+    return View();
+
+}
+/// <summary>
+/// Create method - post
+/// </summary>
+/// <param name="model"></param>
+/// <returns></returns>
+[HttpPost]
+public IActionResult Create(ProductModel model)
+{
+    if (!ModelState.IsValid)
+    {
+        TempData["ResponseMessage"] = "Neuspesno dodato";
+        TempData["Response"] = false;
+        return View(model);
+
+    }
+    productService.Insert(model);
+    TempData["Response"] = true;
+    TempData["ResponseMessage"] = "Uspesno dodato";
+    
+    return View();
+}
 }

@@ -1,0 +1,40 @@
+﻿@model ProductModel
+@{
+    ViewData["Title"] = "Product Page";
+}
+<div class="">
+    <form asp-action="Create">
+        @if (TempData["ResponseMessage"] != null && TempData["Response"]!.Equals(true))
+        {
+            <div class="text-center text-success">
+                @TempData["ResponseMessage"]
+            </div>
+        }
+        else
+        {
+            <div class="text-center text-danger">
+                @TempData["ResponseMessage"]
+            </div>
+        }
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="mb-2">
+            <label asp-for="Name" class="form-label"></label>
+            <input asp-for="Name" class="form-control">
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="mb-2">
+            <label asp-for="Price" class="form-label"></label>
+            <input asp-for="Price" class="form-control">
+            <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+        <div class="mb-2">
+            <label asp-for="Category" class="form-label"></label>
+            <input asp-for="Category" class="form-control">
+            <span asp-validation-for="Category" class="text-danger"></span>
+        </div>
+
+        <div class="mb-2">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+</div>

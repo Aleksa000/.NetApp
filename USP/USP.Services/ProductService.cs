@@ -1,4 +1,5 @@
-﻿using MongoDB.Bson;
+﻿using AutoMapper;
+using MongoDB.Bson;
 using USP.Data;
 using USP.Models;
 using USP.Repositories;
@@ -16,10 +17,12 @@ public interface IProductService
 public class ProductService : IProductService
 {
     private readonly IProductRepository productRepository;
+    private readonly IMapper _mapper;
 
-    public ProductService(IProductRepository productRepository)
+    public ProductService(IProductRepository productRepository, IMapper mapper)
     {
         this.productRepository = productRepository;
+        _mapper = mapper;
     }
 
 /// <summary>
@@ -29,14 +32,7 @@ public class ProductService : IProductService
     public List<ProductModel> GetAll()
     {
         var dataFromDb = productRepository.GetAll();
-
-        var listOfModel = new List<ProductModel>();
-
-        foreach (var product  in dataFromDb)
-        {
-            var model = new ProductModel { Id = product.Id.ToString(), Price = product.Price, Name = product.Name, Category = product.Category};
-            listOfModel.Add(model);
-        }
+        var listOfModel = _mapper.Map<List<ProductModel>>(dataFromDb);
         
         return listOfModel;
     }
@@ -48,25 +44,25 @@ public class ProductService : IProductService
 public ProductModel GetOne(string id)
 {
     var dataFromDb = productRepository.GetOne(ObjectId.Parse(id));
-    var model = new ProductModel { Id = dataFromDb.Id.ToString(), Price = dataFromDb.Price, Name = dataFromDb.Name, Category = dataFromDb.Category};
+    var model = _mapper.Map<ProductModel>(dataFromDb);
     return model;
 }
 
 public void Insert(ProductModel model)
 {
-    var obj = new Product { Price = model.Price, Name = model.Name, Category = model.Category};
-    productRepository.Insert(obj);
+    
+    productRepository.Insert(_mapper.Map<Product>(model));
 }
 
 public void Update(ProductModel model)
 {
-    var obj = new Product { Id = ObjectId.Parse(model.Id), Price = model.Price, Name = model.Name, Category = model.Category };
-    productRepository.Update(obj);
+     
+    productRepository.Update(_mapper.Map<Product>(model));
 }
 
 public void Delete(ProductModel model)
 {
-    var obj = new Product { Id = ObjectId.Parse(model.Id), Price = model.Price, Name = model.Name, Category = model.Category };
-    productRepository.Delete(obj);
+   
+    productRepository.Delete(_mapper.Map<Product>(model));
 }
 }
