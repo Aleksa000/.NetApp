@@ -5,10 +5,27 @@
     <projectFile profileName="USP.Web">USP.Web/USP.Web.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b57b1d1b-f079-4b7d-94fe-0ee10b39491e" name="Changes" comment="">
+    <list default="true" id="b57b1d1b-f079-4b7d-94fe-0ee10b39491e" name="Changes" comment="upis">
+      <change afterPath="$PROJECT_DIR$/USP.Data/Comment.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Repositories/CommentRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Services/CommentService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/Areas/Comment/Controllers/HomeController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/Areas/Comment/Views/Home/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/Areas/Comment/Views/Home/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/Areas/Comment/Views/_ViewImports.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/Areas/Comment/Views/_ViewStart.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.USP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.USP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Web/Areas/Product/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/Areas/Product/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Web/Areas/Product/Views/Home/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/Areas/Product/Views/Home/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Data/obj/Debug/net6.0/USP.Data.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Data/obj/Debug/net6.0/USP.Data.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Repositories/obj/Debug/net6.0/USP.Repositories.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Repositories/obj/Debug/net6.0/USP.Repositories.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Repositories/obj/Debug/net6.0/USP.Repositories.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Repositories/obj/Debug/net6.0/USP.Repositories.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Services/obj/Debug/net6.0/USP.Services.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Services/obj/Debug/net6.0/USP.Services.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Services/obj/Debug/net6.0/USP.Services.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Services/obj/Debug/net6.0/USP.Services.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/USP.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/USP.Web.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/staticwebassets.pack.sentinel" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +35,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/575c31ecc35a636b6f962cb71d53992552941a18982aae1c8e6c16305cc3761b/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/USP.Data/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/38160/OneDrive/Documents/GitHub/USP/USP/USP.Web/Areas/Product/Views/Home/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/USP.Web/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.MvcApplicationPartsAssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -97,7 +115,7 @@
       <workItem from="1665140843711" duration="13754000" />
       <workItem from="1665395779382" duration="205000" />
       <workItem from="1665399576745" duration="18063000" />
-      <workItem from="1665493383060" duration="437000" />
+      <workItem from="1665493383060" duration="2509000" />
     </task>
     <task id="LOCAL-00001" summary="mala izmena teksta">
       <created>1664536170800</created>
@@ -218,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665423403738</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="upis">
+      <created>1665494137248</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1665494137248</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +280,8 @@
     <MESSAGE value="upis u bazu,mapiranje podataka,notifikacije" />
     <MESSAGE value="base repozitorijum, kategorije" />
     <MESSAGE value="promene" />
-    <option name="LAST_COMMIT_MESSAGE" value="promene" />
+    <MESSAGE value="upis" />
+    <option name="LAST_COMMIT_MESSAGE" value="upis" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

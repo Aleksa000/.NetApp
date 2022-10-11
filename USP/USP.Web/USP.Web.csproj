@@ -14,9 +14,13 @@
     <ItemGroup>
       <_ContentIncludedByDefault Remove="Area\Views\Shared\_ViewImports.cshtml" />
       <_ContentIncludedByDefault Remove="Area\Views\Shared\_ViewStart.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Comment\Views\Shared\_ViewImports.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Comment\Views\Shared\_ViewStart.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Comment\Views\Home\Create.cshtml" />
     </ItemGroup>
 
     <ItemGroup>
+      <Folder Include="Areas\Comment\Views\Shared" />
       <Folder Include="Areas\Product\Views\Shared" />
     </ItemGroup>
 
@@ -24,6 +28,13 @@
       <ProjectReference Include="..\USP.Data\USP.Data.csproj" />
       <ProjectReference Include="..\USP.Models\USP.Models.csproj" />
       <ProjectReference Include="..\USP.Services\USP.Services.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <AdditionalFiles Include="Areas\Comment\Views\Home\Create.cshtml" />
+      <AdditionalFiles Include="Areas\Comment\Views\Home\Index.cshtml" />
+      <AdditionalFiles Include="Areas\Comment\Views\_ViewImports.cshtml" />
+      <AdditionalFiles Include="Areas\Comment\Views\_ViewStart.cshtml" />
     </ItemGroup>
 
 </Project>
