@@ -1,7 +1,5 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using USP.Data;
 using USP.Models;
 using USP.Services;
 
@@ -31,11 +29,11 @@ public class HomeController : Controller
     /// </summary>
     /// <returns></returns>
 
-   /// [HttpGet]
-  ///  public IActionResult Create()
-   /// {
-        
-   /// }
+    [HttpGet]
+   public IActionResult Create()
+    {
+        return View();
+    }
     /// <summary>
     /// Create method - post
     /// </summary>
