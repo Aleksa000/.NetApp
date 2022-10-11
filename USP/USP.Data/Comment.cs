@@ -2,7 +2,6 @@
 using MongoDbGenericRepository.Attributes;
 
 namespace USP.Data;
-using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
 [CollectionName("comments")]
