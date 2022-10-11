@@ -29,7 +29,7 @@
         </div>
         <div class="mb-2">
             <label asp-for="Category" class="form-label"></label>
-          <select asp-for="Category" asp-items="@Model.Categories" class="form-control"></select>
+          <select asp-for="Category" asp-items="@ViewBag.Categories" class="form-control"></select>
             <span asp-validation-for="Category" class="text-danger"></span>
         </div>
 

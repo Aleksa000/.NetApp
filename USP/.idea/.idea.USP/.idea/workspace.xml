@@ -5,58 +5,10 @@
     <projectFile profileName="USP.Web">USP.Web/USP.Web.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b57b1d1b-f079-4b7d-94fe-0ee10b39491e" name="Changes" comment="upis u bazu,mapiranje podataka,notifikacije">
-      <change afterPath="$PROJECT_DIR$/USP.Data/Base.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USP.Data/Category.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USP.Repositories/BaseRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USP.Repositories/CategoryRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USP.Services/CategoryService.cs" afterDir="false" />
+    <list default="true" id="b57b1d1b-f079-4b7d-94fe-0ee10b39491e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.USP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.USP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Data/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Data/Product.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Data/USP.Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Data/USP.Data.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Data/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Data/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Data/bin/Debug/net6.0/USP.Data.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Data/bin/Debug/net6.0/USP.Data.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Data/obj/Debug/net6.0/USP.Data.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Data/obj/Debug/net6.0/USP.Data.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Data/obj/Debug/net6.0/USP.Data.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Data/obj/Debug/net6.0/USP.Data.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Data/obj/Debug/net6.0/USP.Data.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Data/obj/Debug/net6.0/USP.Data.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Data/obj/USP.Data.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Data/obj/USP.Data.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Data/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Data/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Data/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Data/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Data/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Data/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Data/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Data/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Repositories/ProductRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Repositories/ProductRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Repositories/bin/Debug/net6.0/USP.Repositories.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Repositories/bin/Debug/net6.0/USP.Repositories.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Repositories/obj/Debug/net6.0/USP.Repositories.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Repositories/obj/Debug/net6.0/USP.Repositories.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Repositories/obj/Debug/net6.0/USP.Repositories.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Repositories/obj/Debug/net6.0/USP.Repositories.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Repositories/obj/Debug/net6.0/USP.Repositories.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Repositories/obj/Debug/net6.0/USP.Repositories.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Repositories/obj/USP.Repositories.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Repositories/obj/USP.Repositories.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Repositories/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Repositories/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Repositories/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Repositories/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Repositories/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Repositories/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Services/MapperService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Services/MapperService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Services/USP.Services.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Services/USP.Services.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Services/bin/Debug/net6.0/USP.Services.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Services/bin/Debug/net6.0/USP.Services.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Services/obj/Debug/net6.0/USP.Services.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Services/obj/Debug/net6.0/USP.Services.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Services/obj/Debug/net6.0/USP.Services.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Services/obj/Debug/net6.0/USP.Services.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Services/obj/Debug/net6.0/USP.Services.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Services/obj/Debug/net6.0/USP.Services.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Services/obj/USP.Services.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Services/obj/USP.Services.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Services/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Services/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Services/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Services/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Services/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Services/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Services/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Services/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/USP.Web/Areas/Product/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/Areas/Product/Controllers/HomeController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/USP.Web/Areas/Product/Views/Home/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/Areas/Product/Views/Home/Create.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Web/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Web/bin/Debug/net6.0/USP.Web.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/bin/Debug/net6.0/USP.Web.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Web/obj/USP.Web.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/USP.Web.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Web/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Web/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Web/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Web/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/staticwebassets.pack.sentinel" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +19,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/575c31ecc35a636b6f962cb71d53992552941a18982aae1c8e6c16305cc3761b/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/USP.Data/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/USP.Web/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.MvcApplicationPartsAssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -143,7 +96,8 @@
       <workItem from="1665133403925" duration="3393000" />
       <workItem from="1665140843711" duration="13754000" />
       <workItem from="1665395779382" duration="205000" />
-      <workItem from="1665399576745" duration="17679000" />
+      <workItem from="1665399576745" duration="18063000" />
+      <workItem from="1665493383060" duration="437000" />
     </task>
     <task id="LOCAL-00001" summary="mala izmena teksta">
       <created>1664536170800</created>
@@ -250,7 +204,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665407506573</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="base repozitorijum, kategorije">
+      <created>1665423385231</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1665423385231</updated>
+    </task>
+    <task id="LOCAL-00017" summary="promene">
+      <created>1665423403738</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1665423403738</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,9 +252,10 @@
     <MESSAGE value="c" />
     <MESSAGE value="z" />
     <MESSAGE value="povezivanje sa bazom,iscitavanje podataka(update,delete,insert)" />
-    <MESSAGE value="promene" />
     <MESSAGE value="upis u bazu,mapiranje podataka,notifikacije" />
-    <option name="LAST_COMMIT_MESSAGE" value="upis u bazu,mapiranje podataka,notifikacije" />
+    <MESSAGE value="base repozitorijum, kategorije" />
+    <MESSAGE value="promene" />
+    <option name="LAST_COMMIT_MESSAGE" value="promene" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

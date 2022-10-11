@@ -43,7 +43,8 @@ public class HomeController : Controller
     var categories = new List<CategoryModel>();
     categories.Add(category1);
     categories.Add(category2);
-    return View(new ProductModel{ Categories = mapper.Map<List<SelectListItem>>(categories) });
+    ViewBag.Categories = mapper.Map<List<SelectListItem>>(categories);
+    return View();
 
 }
 /// <summary>
@@ -56,14 +57,14 @@ public IActionResult Create(ProductModel model)
 {
     if (!ModelState.IsValid)
     {
-        TempData["ResponseMessage"] = "Neuspesno dodato";
+        TempData["ResponseMessage"] = "Try again";
         TempData["Response"] = false;
         return View(model);
 
     }
     productService.Insert(model);
     TempData["Response"] = true;
-    TempData["ResponseMessage"] = "Uspesno dodato";
+    TempData["ResponseMessage"] = "Success";
     
     return View();
 }
