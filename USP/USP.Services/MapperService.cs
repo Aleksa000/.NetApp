@@ -19,10 +19,11 @@ public class MapperService : Profile
         CreateMap<CategoryModel, SelectListItem>()
             .ForMember(dest => dest.Value, opt => opt.MapFrom(src => src.Id))
             .ForMember(dest => dest.Text, opt => opt.MapFrom(src => src.Name));
-        
-        //user model
-        CreateMap<UserModel, User>()
-            .ForMember(dest => dest.FullName, opt => opt.MapFrom(src => src.FirstName + "" + src.LastName));
+        //registration model to user
+        CreateMap<RegistrationModel, User>()
+            .ForMember(dest => dest.UserName, opt => opt.MapFrom(src => src.Email));
+
+
     }
     
 }

@@ -26,7 +26,6 @@ public class BaseRepository<TEntity>: IBaseRepository<TEntity> where TEntity : B
         _mongoClient = new MongoClient(mongoSettings.Value.Connection);//imamo objekat za konekciju 
         _mongoDatabase = _mongoClient.GetDatabase(mongoSettings.Value.DatabaseName);//konektuje se na odredjenu bazu podataka
         var test = typeof(TEntity).CustomAttributes;
-        Console.WriteLine(test);
         _mongoCollection = _mongoDatabase.GetCollection<TEntity>(typeof(TEntity).CustomAttributes.FirstOrDefault()!.ConstructorArguments.FirstOrDefault().Value!.ToString());//citamo tip nepoznatog entiteta,citamo atribute,prva anotacija,njegove argumente
     }
     /// <summary>

@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Identity;
 using USP.Data;
 using USP.Repositories;
 using USP.Services;
@@ -8,6 +9,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddAutoMapper(typeof(MapperService));
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+//identity service
+builder.Services.AddIdentity<User,Role>().AddMongoDbStores<User,Role,Guid>(
+    builder.Configuration.GetSection("MongoSetting:Connection").Value,
+    builder.Configuration.GetSection("MongoSetting:DatabaseName").Value
+    ).AddSignInManager().AddDefaultTokenProviders();//konfiguracija user i sign in managera
 builder.Services.AddTransient<IUserService, UserService>();
 builder.Services.AddTransient<IProductService, ProductService>();
 builder.Services.AddTransient<IProductRepository, ProductRepository>();

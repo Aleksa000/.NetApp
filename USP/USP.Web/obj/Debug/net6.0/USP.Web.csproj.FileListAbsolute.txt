@@ -270,3 +270,4 @@ C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Web\bin\Debug\net6.0\Micros
 C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Web\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Web\obj\Debug\net6.0\USP.Web.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Web\bin\Debug\net6.0\MongoDbGenericRepository.dll
+C:\Users\38160\OneDrive\Documents\GitHub\USP\USP\USP.Web\bin\Debug\net6.0\AspNetCore.Identity.MongoDbCore.dll

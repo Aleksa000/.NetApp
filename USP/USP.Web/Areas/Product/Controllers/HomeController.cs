@@ -43,8 +43,8 @@ public class HomeController : Controller
     var categories = new List<CategoryModel>();
     categories.Add(category1);
     categories.Add(category2);
-    ViewBag.Categories = mapper.Map<List<SelectListItem>>(categories);
-    return View();
+   
+    return View(new ProductModel{Categories = mapper.Map<List<SelectListItem>>(categories)});
 
 }
 /// <summary>
@@ -66,6 +66,14 @@ public IActionResult Create(ProductModel model)
     TempData["Response"] = true;
     TempData["ResponseMessage"] = "Success";
     
-    return View();
+    var category1 = new CategoryModel { Id = "12345", Name = "Tehnika" };
+    var category2 = new CategoryModel { Id = "123456", Name = "Tehnika1" };
+    var categories = new List<CategoryModel>();
+    categories.Add(category1);
+    categories.Add(category2);
+
+    model.Categories = mapper.Map<List<SelectListItem>>(categories);
+    
+    return View(model);
 }
 }
