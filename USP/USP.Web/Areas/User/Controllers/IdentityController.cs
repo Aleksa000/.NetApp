@@ -9,14 +9,14 @@ namespace USP.Web.Areas.User.Controllers;
 public class IdentityController : Controller
 {
 
-    private readonly UserManager<Data.User> userManager;
-    private readonly SignInManager<Data.User> signInManager;
-    private readonly IMapper mapper;
-    public IdentityController(UserManager<Data.User> userManager, SignInManager<Data.User> signInManager, IMapper mapper)
+    private readonly UserManager<Data.User> _userManager;
+    private readonly SignInManager<Data.User> _signInManager;
+    private readonly IMapper _mapper;
+    public IdentityController(UserManager<Data.User> userManager,IMapper mapper, SignInManager<Data.User> signInManager)
     {
-        this.userManager = userManager;
-        this.signInManager = signInManager;
-        this.mapper = mapper;
+        _userManager = userManager;
+        _mapper = mapper;
+        _signInManager = signInManager;
     }
     
     /// <summary>
@@ -38,8 +38,10 @@ public class IdentityController : Controller
     {
         
         
-        userManager.CreateAsync(mapper.Map<Data.User>(model), model.Password);
-        return View();
+         var result = _userManager.CreateAsync(_mapper.Map<Data.User>(model), model.Password);
+         
+         return View();
+       
     }
     
     /// <summary>
@@ -59,6 +61,10 @@ public class IdentityController : Controller
     [HttpPost]
     public IActionResult Login(LoginModel model)
     {
+        var result = _signInManager.PasswordSignInAsync(model.Email, model.Password,true,false);
+        if (result.Result.Succeeded) {
+            
+        }
         return View();
     }
 }

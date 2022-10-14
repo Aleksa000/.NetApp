@@ -22,6 +22,9 @@ public class MapperService : Profile
         //registration model to user
         CreateMap<RegistrationModel, User>()
             .ForMember(dest => dest.UserName, opt => opt.MapFrom(src => src.Email));
+        //login model to user
+        CreateMap<LoginModel, User>()
+            .ForMember(dest => dest.UserName, opt => opt.MapFrom(src => src.Email));
 
 
     }

@@ -11,8 +11,8 @@ builder.Services.AddAutoMapper(typeof(MapperService));
 builder.Services.AddControllersWithViews();
 //identity service
 builder.Services.AddIdentity<User,Role>().AddMongoDbStores<User,Role,Guid>(
-    builder.Configuration.GetSection("MongoSetting:Connection").Value,
-    builder.Configuration.GetSection("MongoSetting:DatabaseName").Value
+    builder.Configuration.GetSection("MongoSettings:Connection").Value,
+    builder.Configuration.GetSection("MongoSettings:DatabaseName").Value
     ).AddSignInManager().AddDefaultTokenProviders();//konfiguracija user i sign in managera
 builder.Services.AddTransient<IUserService, UserService>();
 builder.Services.AddTransient<IProductService, ProductService>();

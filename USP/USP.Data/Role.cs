@@ -2,7 +2,7 @@
 using MongoDbGenericRepository.Attributes;
 
 namespace USP.Data;
-[CollectionName("rols")]
+[CollectionName("roles")]
 public class Role : MongoIdentityRole<Guid>
 {
     
