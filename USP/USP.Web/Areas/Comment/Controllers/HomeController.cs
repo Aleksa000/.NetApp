@@ -1,10 +1,12 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using USP.Models;
 using USP.Services;
 
 namespace USP.Web.Areas.Comment.Controllers;
 [Area("Comment")]//naziv area preko anotacije
+[Authorize]
 public class HomeController : Controller
 {
 

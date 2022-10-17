@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using USP.Models;
 using USP.Web.Controllers;
+using HomeController = USP.Web.Areas.Product.Controllers.HomeController;
 
 namespace USP.Web.Areas.User.Controllers;
 
@@ -106,9 +107,11 @@ public class IdentityController : Controller
     public IActionResult Login(LoginModel model)
     {
         var result = _signInManager.PasswordSignInAsync(model.Email, model.Password,true,false);
-        if (result.Result.Succeeded) {
+        if (result.Result.Succeeded)
+        {
             
         }
+
         return View();
     }
 }

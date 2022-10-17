@@ -33,7 +33,7 @@ builder.Services.Configure<IdentityOptions>(options =>
     options.Password.RequireNonAlphanumeric = false;
     options.Password.RequireUppercase = true;
     options.Password.RequiredLength = 5;
-    options.Password.RequiredUniqueChars = 10;
+    options.Password.RequiredUniqueChars = 5;
 
     // Lockout settings
     options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(2);

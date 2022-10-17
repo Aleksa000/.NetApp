@@ -23,18 +23,23 @@
             <span asp-validation-for="Name" class="text-danger"></span>
         </div>
         <div class="mb-2">
+            <label asp-for="Category" class="form-label"></label>
+            <select asp-for="Category" asp-items="@Model.Categories" class="form-control"></select>
+            <span asp-validation-for="Category" class="text-danger"></span>
+        </div>
+        <div class="mb-2">
             <label asp-for="Price" class="form-label"></label>
             <input asp-for="Price" class="form-control">
             <span asp-validation-for="Price" class="text-danger"></span>
         </div>
         <div class="mb-2">
-            <label asp-for="Category" class="form-label"></label>
-          <select asp-for="Category" asp-items="@Model.Categories" class="form-control"></select>
-            <span asp-validation-for="Category" class="text-danger"></span>
-        </div>
-
-        <div class="mb-2">
             <button type="submit" class="btn btn-primary">Submit</button>
         </div>
     </form>
+</div>
+<div class="mb-2">
+    <a href="https://localhost:7282/Comment/Home/Create/"> <button type="submit" class="btn btn-primary">You can leave a comment if you want</button></a> 
+</div>
+<div class="mb-2">
+    <a href="https://localhost:7282/User/Identity/Logout/"> <button type="submit" class="btn btn-primary">Logout</button></a> 
 </div>

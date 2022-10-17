@@ -22,14 +22,20 @@
             <input asp-for="Name" class="form-control">
             <span asp-validation-for="Name" class="text-danger"></span>
         </div>
-       <div class="mb-2">
-                   <label asp-for="Product" class="form-label"></label>
-                   <input asp-for="Product" class="form-control">
-                   <span asp-validation-for="Product" class="text-danger"></span>
-               </div>
+        <div class="mb-2">
+            <label asp-for="Product" class="form-label"></label>
+            <input asp-for="Product" class="form-control">
+            <span asp-validation-for="Product" class="text-danger"></span>
+        </div>
 
         <div class="mb-2">
             <button type="submit" class="btn btn-primary">Submit</button>
         </div>
     </form>
+</div>
+<div class="mb-2">
+    <a href="https://localhost:7282/Product/Home/Create/"> <button type="submit" class="btn btn-primary">Back</button></a> 
+</div>
+<div class="mb-2">
+    <a href="https://localhost:7282/User/Identity/Logout/"> <button type="submit" class="btn btn-primary">Logout</button></a> 
 </div>
