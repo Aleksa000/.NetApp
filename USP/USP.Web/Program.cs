@@ -24,7 +24,43 @@ builder.Services.AddTransient<ICommentRepository, CommentRepository>();
 //nacin zivota odredjenog servisa
 
 builder.Services.Configure<MongoSettings>(builder.Configuration.GetSection("MongoSettings"));
+//Identity options
+builder.Services.Configure<IdentityOptions>(options =>
+{
+    // Password settings
+    options.Password.RequireDigit = true;
+    options.Password.RequireLowercase = true;
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequireUppercase = true;
+    options.Password.RequiredLength = 5;
+    options.Password.RequiredUniqueChars = 10;
 
+    // Lockout settings
+    options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(2);
+    options.Lockout.MaxFailedAccessAttempts = 5;
+    options.Lockout.AllowedForNewUsers = true;
+
+    // User settings
+    options.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+";
+
+    // Required unique email
+    options.User.RequireUniqueEmail = true;
+
+    // Email confirmation settings
+    options.SignIn.RequireConfirmedEmail = false;
+});
+
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    // Cookie Settings
+    options.Cookie.HttpOnly = false;
+    options.ExpireTimeSpan = TimeSpan.FromDays(354);
+
+    options.LoginPath = "/user/identity/login";
+    options.LogoutPath = "/user/identity/logout";
+    options.AccessDeniedPath = "/user/identity/accessdenied";
+    options.SlidingExpiration = true;
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -39,7 +75,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.UseEndpoints(endpoints =>

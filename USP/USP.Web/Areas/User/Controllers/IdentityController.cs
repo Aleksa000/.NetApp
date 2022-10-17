@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using USP.Models;
+using USP.Web.Controllers;
 
 namespace USP.Web.Areas.User.Controllers;
 
@@ -34,14 +35,48 @@ public class IdentityController : Controller
     /// <returns></returns>
     
     [HttpPost]
-    public IActionResult Registration(RegistrationModel model)
+    public async Task<IActionResult> Registration(RegistrationModel model)
     {
+        if (!ModelState.IsValid)
+        {
+            TempData["Response"] = false;
+            TempData["ResponseMessage"] = "Try again";
+            return View(model);
+        }
         
         
-         var result = _userManager.CreateAsync(_mapper.Map<Data.User>(model), model.Password);
+        var result = await _userManager.CreateAsync(_mapper.Map<Data.User>(model), model.Password);
          
-         return View();
-       
+         
+        var errorString = "";
+         
+        if (!result.Succeeded)
+        {
+            if (result.Errors is { } && result.Errors.Any())
+            {
+                foreach (var identityError in result.Errors)
+                {
+                    errorString += "\n" + identityError.Description;
+                }
+            }
+            TempData["Response"] = false;
+            TempData["ResponseMessage"] = errorString;
+            return View(model);
+        }
+        
+        var user = await  _userManager.FindByNameAsync(model.Email);//izvrsena pretraga
+
+        if (user is null) return View();//korisnik nije pronadjen
+        var checkRolesResult = await _userManager.IsInRoleAsync(user, "User");//provera role
+
+        if (checkRolesResult) return View();
+        var addToRolesResult = await _userManager.AddToRoleAsync(user, "User");//ukoliko nema rolu dodaje mu se rola
+
+        if (!addToRolesResult.Succeeded) return View();
+        TempData["Response"] = true;
+        TempData["ResponseMessage"] = "Succeeded";
+        return View();
+
     }
     
     /// <summary>
@@ -52,6 +87,15 @@ public class IdentityController : Controller
     public IActionResult Login()
     {
         return View();
+    }
+    /// <summary>
+    /// logout method
+    /// </summary>
+    /// <returns></returns>
+    public IActionResult LogOut()
+    {
+        _signInManager.SignOutAsync();
+        return RedirectToAction("Index","Home", new {area = ""});
     }
 
     /// <summary>
