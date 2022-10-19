@@ -9,6 +9,8 @@ namespace USP.Services;
 public interface IProductService
 {
     List<ProductModel> GetAll();
+    List<ProductModel> PaginationSearch(int? startIndex,int? numberOfObject);
+    List<ProductModel>NumberOfDocuments(long? startIndex, long? numberOfObject);
     ProductModel GetOne(string id);
     void Insert(ProductModel model);
     void Update(ProductModel model);
@@ -36,6 +38,31 @@ public class ProductService : IProductService
         
         return listOfModel;
     }
+/// <summary>
+/// pagination search
+/// </summary>
+/// <returns></returns>
+    public List<ProductModel> PaginationSearch(int? startIndex,int? numberOfObject)
+{
+    if (startIndex is not { }) startIndex = 0;
+    if (numberOfObject is not { }) numberOfObject = 10;
+        
+        
+    var dataFromDb = productRepository.PaginationSearch(startIndex,numberOfObject);
+    var listOfModel = _mapper.Map<List<ProductModel>>(dataFromDb);
+        
+    return listOfModel;
+    }
+
+public List<ProductModel> NumberOfDocuments(long? startIndex, long? numberOfObject)
+{
+    var dataFromDb = productRepository.NumberOfDocuments();
+    var listOfModel = _mapper.Map<List<ProductModel>>(dataFromDb);
+        
+    return listOfModel;
+}
+
+
 /// <summary>
 /// get one metod
 /// </summary>

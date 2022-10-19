@@ -85,7 +85,23 @@ public class IdentityController : Controller
     /// </summary>
     /// <returns></returns>
     
-    public IActionResult Login()
+    public IActionResult Login(string? returnUrl)
+    {
+        returnUrl ??= Url.Content("~/");//uzmi domen
+
+        if (User.Identity is {IsAuthenticated:true})//auth korisnika
+        {
+            return LocalRedirect(returnUrl);
+        }
+        
+        return View(new LoginModel{ReturnUrl = returnUrl});
+    }
+    /// <summary>
+    /// access denied
+    /// </summary>
+    /// <returns></returns>
+    
+    public IActionResult AccessDenied()
     {
         return View();
     }
@@ -109,9 +125,10 @@ public class IdentityController : Controller
         var result = _signInManager.PasswordSignInAsync(model.Email, model.Password,true,false);
         if (result.Result.Succeeded)
         {
-            
+            return LocalRedirect(model.ReturnUrl);
         }
 
-        return View();
+        return View(model);
     }
+   
 }

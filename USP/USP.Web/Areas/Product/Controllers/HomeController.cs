@@ -8,7 +8,7 @@ using USP.Services;
 
 namespace USP.Web.Areas.Product.Controllers;
 [Area("Product")]//naziv area preko anotacije
-[Authorize]
+[Authorize(Policy = "RequireAdminRole")]
 public class HomeController : Controller
 {
 
@@ -24,13 +24,13 @@ public class HomeController : Controller
     /// index page
     /// </summary>
     /// <returns></returns>
-    public IActionResult Index()
+    public IActionResult Index(int? startIndex,int? numberOfObject)
     {
         
         //var insertModel = new ProductModel {Name = "Laptop 1",Price = 1000, Category = "Tehnika"};
         //productService.Insert(insertModel);
         
-        return View(productService.GetAll());
+        return View(productService.PaginationSearch(startIndex,numberOfObject));
     }
 /// <summary>
 /// Create method - get

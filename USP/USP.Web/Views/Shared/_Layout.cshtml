@@ -22,9 +22,29 @@
                     <li class="nav-item">
                         <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                    </li>
+                    @if (User.Identity is {IsAuthenticated:true})
+                    {
+                        <li class="nav-item ms-auto">
+                            <a asp-action="LogOut" asp-area="User" asp-controller="Identity" class="nav-link text-dark">LogOut</a>
+                        </li>
+                        
+                    }
+                    else
+                    {
+                        <li class="nav-item ms-auto">
+                            <a asp-action="Registration" asp-area="User" asp-controller="Identity" class="nav-link text-dark">Registration</a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-action="Login" asp-area="User" asp-controller="Identity" class="nav-link text-dark">Login</a>
+                        </li>
+                    }
+                      @if (User.IsInRole("Admin"))
+                                        {
+                                            <li class="nav-item">
+                                                <a class="nav-link text-dark" asp-area="Product" asp-controller="Home" asp-action="Index">Privacy</a>
+                                            </li>
+                                        }
+                   
                 </ul>
             </div>
         </div>

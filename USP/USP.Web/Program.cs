@@ -9,11 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddAutoMapper(typeof(MapperService));
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-//identity service
-builder.Services.AddIdentity<User,Role>().AddMongoDbStores<User,Role,Guid>(
-    builder.Configuration.GetSection("MongoSettings:Connection").Value,
-    builder.Configuration.GetSection("MongoSettings:DatabaseName").Value
-    ).AddSignInManager().AddDefaultTokenProviders();//konfiguracija user i sign in managera
+
+#region Usp services
 builder.Services.AddTransient<IUserService, UserService>();
 builder.Services.AddTransient<IProductService, ProductService>();
 builder.Services.AddTransient<IProductRepository, ProductRepository>();
@@ -22,8 +19,15 @@ builder.Services.AddTransient<ICategoryRepository, CategoryRepository>();
 builder.Services.AddTransient<ICommentService, CommentService>();
 builder.Services.AddTransient<ICommentRepository, CommentRepository>();
 //nacin zivota odredjenog servisa
+#endregion
 
-builder.Services.Configure<MongoSettings>(builder.Configuration.GetSection("MongoSettings"));
+
+#region Identity services
+//identity service
+builder.Services.AddIdentity<User,Role>().AddMongoDbStores<User,Role,Guid>(
+    builder.Configuration.GetSection("MongoSettings:Connection").Value,
+    builder.Configuration.GetSection("MongoSettings:DatabaseName").Value
+).AddSignInManager().AddDefaultTokenProviders();//konfiguracija user i sign in managera
 //Identity options
 builder.Services.Configure<IdentityOptions>(options =>
 {
@@ -61,6 +65,20 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.AccessDeniedPath = "/user/identity/accessdenied";
     options.SlidingExpiration = true;
 });
+#endregion
+
+#region Authorize services
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("RequireAdminRole", policy => policy.RequireRole("Admin"));
+    options.AddPolicy("RequireUserRole", policy => policy.RequireRole("User"));
+});
+#endregion
+
+#region Class custom services
+builder.Services.Configure<MongoSettings>(builder.Configuration.GetSection("MongoSettings"));
+#endregion
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

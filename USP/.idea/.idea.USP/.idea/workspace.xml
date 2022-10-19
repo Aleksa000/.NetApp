@@ -5,7 +5,25 @@
     <projectFile profileName="USP.Web">USP.Web/USP.Web.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b57b1d1b-f079-4b7d-94fe-0ee10b39491e" name="Changes" comment="" />
+    <list default="true" id="b57b1d1b-f079-4b7d-94fe-0ee10b39491e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/USP.Web/Areas/User/Views/Identity/AccessDenied.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.USP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.USP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Repositories/BaseRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Repositories/BaseRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Services/ProductService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Services/ProductService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Services/obj/Debug/net6.0/USP.Services.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Services/obj/Debug/net6.0/USP.Services.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/Areas/Product/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/Areas/Product/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/Areas/Product/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/Areas/Product/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/Areas/User/Controllers/IdentityController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/Areas/User/Controllers/IdentityController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/Areas/User/Views/Identity/Login.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/Areas/User/Views/Identity/Login.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/Areas/User/Views/Identity/Registration.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/Areas/User/Views/Identity/Registration.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/staticwebassets.pack.sentinel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/USP.sln.DotSettings.user" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +32,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/575c31ecc35a636b6f962cb71d53992552941a18982aae1c8e6c16305cc3761b/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/USP.Data/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/38160/OneDrive/Documents/GitHub/USP/USP/USP.Web/Areas/Comment/Views/Home/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/38160/OneDrive/Documents/GitHub/USP/USP/USP.Web/Areas/Product/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/USP.Web/Areas/User/Controllers/IdentityController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/USP.Web/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.MvcApplicationPartsAssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -100,6 +117,7 @@
       <workItem from="1665743984983" duration="15469000" />
       <workItem from="1665961275356" duration="144000" />
       <workItem from="1666003973346" duration="14822000" />
+      <workItem from="1666176643367" duration="14750000" />
     </task>
     <task id="LOCAL-00001" summary="mala izmena teksta">
       <created>1664536170800</created>

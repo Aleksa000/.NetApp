@@ -1,10 +1,29 @@
 ﻿@model List<ProductModel>
-
-@foreach (var item in Model)
-{
-    <h1>@item.Id</h1>
-    <br/>
-    <h1>@item.Name</h1>
-    <br/>
-    <h1>@item.Price</h1>
+@{
+    ViewData["Title"] = "Privacy Product Page";
 }
+<table class="table-bordered col-md-12 mb-2">
+    <thead>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Price</th>
+    </thead>
+    <tbody>
+    
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+            <td>@item.Price</td>
+        </tr>
+
+    }
+    </tbody>
+</table>
+<div class="ms-auto">
+    <a asp-action="Index" asp-area="Product" asp-controller="Home" asp-route-startIndex="0" class="btn btn-info btn-sm">1</a>
+    <a asp-action="Index" asp-area="Product" asp-controller="Home" asp-route-startIndex="1" class="btn btn-info btn-sm">2</a>
+    <a asp-action="Index" asp-area="Product" asp-controller="Home" asp-route-startIndex="2" class="btn btn-info btn-sm">3</a>
+    <a asp-action="Index" asp-area="Product" asp-controller="Home" asp-route-startIndex="3" class="btn btn-info btn-sm">4</a>
+</div>

@@ -8,6 +8,8 @@ namespace USP.Repositories;
 public interface IBaseRepository<TEntity>
 {
     List<TEntity> GetAll();
+    long NumberOfDocuments();
+    List<TEntity> PaginationSearch(int? startIndex,int? numberOfObject);
     void Insert(TEntity obj);
     void Delete(TEntity obj);
 
@@ -36,6 +38,26 @@ public class BaseRepository<TEntity>: IBaseRepository<TEntity> where TEntity : B
     {
         var filter = Builders<TEntity>.Filter.Empty;
         return _mongoCollection.Find(filter).ToList();
+    }
+
+    /// <summary>
+    /// number of documents
+    /// </summary>
+    /// <param name="i"></param>
+    /// <returns></returns>
+    public long NumberOfDocuments()
+    {
+        var filter = Builders<TEntity>.Filter.Empty;
+        return _mongoCollection.CountDocuments(filter);
+    }
+    /// <summary>
+    /// pagination search
+    /// </summary>
+    /// <returns></returns>
+    public List<TEntity> PaginationSearch(int? startIndex,int? numberOfObject)
+    {
+        var filter = Builders<TEntity>.Filter.Empty;
+        return _mongoCollection.Find(filter).Skip(startIndex*numberOfObject).Limit(numberOfObject).ToList();//koliko obj preskacemo,limit koliko ih imamo
     }
     /// <summary>
     /// insert db metod
