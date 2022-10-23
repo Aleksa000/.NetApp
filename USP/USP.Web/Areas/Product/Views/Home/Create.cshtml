@@ -1,4 +1,6 @@
-﻿@model ProductModel
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@using USP.Data
+@model ProductModel
 @{
     ViewData["Title"] = "Product Page";
 }
@@ -27,19 +29,20 @@
             <select asp-for="Category" asp-items="@Model.Categories" class="form-control"></select>
             <span asp-validation-for="Category" class="text-danger"></span>
         </div>
+         <div class="mb-2">
+                    <label asp-for="Type" class="form-label"></label>
+                    <select asp-for="Type" asp-items="@Model.Types" class="form-control"></select>
+                    <span asp-validation-for="Type" class="text-danger"></span>
+                </div>
+     
         <div class="mb-2">
-            <label asp-for="Price" class="form-label"></label>
-            <input asp-for="Price" class="form-control">
-            <span asp-validation-for="Price" class="text-danger"></span>
+            <label asp-for="Year" class="form-label"></label>
+            <input asp-for="Year" class="form-control">
+            <span asp-validation-for="Year" class="text-danger"></span>
         </div>
         <div class="mb-2">
             <button type="submit" class="btn btn-primary">Submit</button>
+           
         </div>
     </form>
-</div>
-<div class="mb-2">
-    <a href="https://localhost:7282/Comment/Home/Create/"> <button type="submit" class="btn btn-primary">You can leave a comment if you want</button></a> 
-</div>
-<div class="mb-2">
-    <a href="https://localhost:7282/User/Identity/Logout/"> <button type="submit" class="btn btn-primary">Logout</button></a> 
 </div>

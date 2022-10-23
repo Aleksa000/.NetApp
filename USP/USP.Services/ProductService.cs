@@ -9,8 +9,8 @@ namespace USP.Services;
 public interface IProductService
 {
     List<ProductModel> GetAll();
+    long TotalCount ();
     List<ProductModel> PaginationSearch(int? startIndex,int? numberOfObject);
-    List<ProductModel>NumberOfDocuments(long? startIndex, long? numberOfObject);
     ProductModel GetOne(string id);
     void Insert(ProductModel model);
     void Update(ProductModel model);
@@ -39,6 +39,15 @@ public class ProductService : IProductService
         return listOfModel;
     }
 /// <summary>
+/// Total count method
+/// </summary>
+/// <returns></returns>
+public long TotalCount()
+{
+    return productRepository.NumberOfDocuments();
+}
+
+/// <summary>
 /// pagination search
 /// </summary>
 /// <returns></returns>
@@ -53,15 +62,6 @@ public class ProductService : IProductService
         
     return listOfModel;
     }
-
-public List<ProductModel> NumberOfDocuments(long? startIndex, long? numberOfObject)
-{
-    var dataFromDb = productRepository.NumberOfDocuments();
-    var listOfModel = _mapper.Map<List<ProductModel>>(dataFromDb);
-        
-    return listOfModel;
-}
-
 
 /// <summary>
 /// get one metod
@@ -78,12 +78,12 @@ public ProductModel GetOne(string id)
 public void Insert(ProductModel model)
 {
     
-    productRepository.Insert(_mapper.Map<Product>(model));
+    productRepository.Insert(_mapper.Map<Product>(model));    
 }
 
 public void Update(ProductModel model)
 {
-     
+    
     productRepository.Update(_mapper.Map<Product>(model));
 }
 

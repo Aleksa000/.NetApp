@@ -11,10 +11,14 @@ public class Product : Base
     [BsonElement("name")]
     public string Name  { get; set; }
     
-    [BsonElement("price")]
-    public int Price  { get; set; }
+    [BsonElement("year")]
+    public int Year  { get; set; }
     
     [BsonElement("category")]
     public string Category  { get; set; }
+    
+    [BsonElement("type")]
+    public string Type  { get; set; }
+
     
 }

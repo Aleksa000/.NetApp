@@ -6,7 +6,7 @@ using USP.Services;
 
 namespace USP.Web.Areas.Comment.Controllers;
 [Area("Comment")]//naziv area preko anotacije
-[Authorize]
+[Authorize(Policy = "RequireUserRole")]
 public class HomeController : Controller
 {
 

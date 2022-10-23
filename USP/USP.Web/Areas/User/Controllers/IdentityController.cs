@@ -122,6 +122,12 @@ public class IdentityController : Controller
     [HttpPost]
     public IActionResult Login(LoginModel model)
     {
+        if (!ModelState.IsValid)
+        {
+            TempData["Response"] = false;
+            TempData["ResponseMessage"] = "Try again";
+            return View(model);
+        }
         var result = _signInManager.PasswordSignInAsync(model.Email, model.Password,true,false);
         if (result.Result.Succeeded)
         {

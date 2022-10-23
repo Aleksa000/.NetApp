@@ -6,23 +6,216 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b57b1d1b-f079-4b7d-94fe-0ee10b39491e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/USP.Web/Areas/User/Views/Identity/AccessDenied.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/Areas/Product/Views/Home/Update.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/about.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/banner-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/banner-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/bg-banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/car-rent-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/car-rent-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/car-rent-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/car-rent-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/car-rent-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/car-rent-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/carousel-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/carousel-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/gallery-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/gallery-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/gallery-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/gallery-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/gallery-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/gallery-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/team-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/team-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/team-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/team-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/testimonial-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/testimonial-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/testimonial-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/testimonial-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/vendor-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/vendor-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/vendor-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/vendor-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/vendor-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/vendor-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/vendor-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/img/vendor-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/lib/easing/easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/lib/easing/easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/lib/owlcarousel/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/lib/owlcarousel/assets/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/lib/owlcarousel/assets/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/lib/owlcarousel/assets/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/lib/owlcarousel/assets/owl.theme.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/lib/owlcarousel/assets/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/lib/owlcarousel/assets/owl.theme.green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/lib/owlcarousel/assets/owl.theme.green.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/lib/owlcarousel/assets/owl.video.play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/lib/owlcarousel/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/lib/owlcarousel/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/lib/tempusdominus/css/tempusdominus-bootstrap-4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/lib/tempusdominus/js/moment-timezone.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/lib/tempusdominus/js/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/lib/tempusdominus/js/tempusdominus-bootstrap-4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/lib/waypoints/links.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/lib/waypoints/waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_jumbotron.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_print.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_spinners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/bootstrap-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/bootstrap-reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/mixins/_background-variant.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/mixins/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/mixins/_deprecate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/mixins/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/mixins/_grid-framework.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/mixins/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/mixins/_nav-divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/mixins/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/mixins/_size.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/mixins/_table-row.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/mixins/_text-emphasis.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/mixins/_text-hide.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/mixins/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/utilities/_align.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/utilities/_background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/utilities/_borders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/utilities/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/utilities/_display.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/utilities/_embed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/utilities/_flex.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/utilities/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/utilities/_interactions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/utilities/_overflow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/utilities/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/utilities/_screenreaders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/utilities/_shadows.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/utilities/_sizing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/utilities/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/utilities/_stretched-link.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/utilities/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/utilities/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USP.Web/wwwroot/scss/bootstrap/scss/vendor/_rfs.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.USP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.USP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Repositories/BaseRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Repositories/BaseRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Data/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Data/Category.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Data/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Data/Product.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Repositories/obj/Debug/net6.0/USP.Repositories.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Repositories/obj/Debug/net6.0/USP.Repositories.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Services/MapperService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Services/MapperService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/USP.Services/ProductService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Services/ProductService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/USP.Services/obj/Debug/net6.0/USP.Services.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Services/obj/Debug/net6.0/USP.Services.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/Areas/Comment/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/Areas/Comment/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/Areas/Comment/Views/Home/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/Areas/Comment/Views/Home/Create.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/USP.Web/Areas/Product/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/Areas/Product/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/Areas/Product/Views/Home/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/Areas/Product/Views/Home/Create.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/USP.Web/Areas/Product/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/Areas/Product/Views/Home/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/USP.Web/Areas/User/Controllers/IdentityController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/Areas/User/Controllers/IdentityController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/USP.Web/Areas/User/Views/Identity/Login.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/Areas/User/Views/Identity/Login.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/USP.Web/Areas/User/Views/Identity/Registration.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/Areas/User/Views/Identity/Registration.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.Web/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/USP.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/USP.Web.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/USP.Web/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/Views/Home/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/USP.Web/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/bin/Debug/net6.0/USP.Web.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/bin/Debug/net6.0/USP.Web.staticwebassets.runtime.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/USP.Web.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/Debug/net6.0/staticwebassets.development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/USP.Web/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/USP.Web/obj/staticwebassets.pack.sentinel" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USP.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/USP.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/css/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/js/site.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/jquery-validation/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USP.Web/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,17 +240,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.49464667&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "XThreadsFramesViewSplitterKey": "0.49464667",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.USP.Web">
     <configuration name="USP.Web" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/USP.Web/USP.Web.csproj" />
@@ -117,7 +310,8 @@
       <workItem from="1665743984983" duration="15469000" />
       <workItem from="1665961275356" duration="144000" />
       <workItem from="1666003973346" duration="14822000" />
-      <workItem from="1666176643367" duration="14750000" />
+      <workItem from="1666176643367" duration="14956000" />
+      <workItem from="1666347459541" duration="42160000" />
     </task>
     <task id="LOCAL-00001" summary="mala izmena teksta">
       <created>1664536170800</created>
@@ -294,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666041337331</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="paginacija,gotova autorizacija i autentifikacija.">
+      <created>1666193235761</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1666193235761</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +539,8 @@
     <MESSAGE value="kreiranje korisnika" />
     <MESSAGE value="autorizacija,autentifikacija,logout" />
     <MESSAGE value="dodaci" />
-    <option name="LAST_COMMIT_MESSAGE" value="dodaci" />
+    <MESSAGE value="paginacija,gotova autorizacija i autentifikacija." />
+    <option name="LAST_COMMIT_MESSAGE" value="paginacija,gotova autorizacija i autentifikacija." />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
