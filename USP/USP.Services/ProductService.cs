@@ -18,12 +18,12 @@ public interface IProductService
 }
 public class ProductService : IProductService
 {
-    private readonly IProductRepository productRepository;
+    private readonly IProductRepository _productRepository;
     private readonly IMapper _mapper;
 
     public ProductService(IProductRepository productRepository, IMapper mapper)
     {
-        this.productRepository = productRepository;
+        _productRepository = productRepository;
         _mapper = mapper;
     }
 
@@ -33,7 +33,7 @@ public class ProductService : IProductService
 /// <returns></returns>
     public List<ProductModel> GetAll()
     {
-        var dataFromDb = productRepository.GetAll();
+        var dataFromDb = _productRepository.GetAll();
         var listOfModel = _mapper.Map<List<ProductModel>>(dataFromDb);
         
         return listOfModel;
@@ -44,7 +44,7 @@ public class ProductService : IProductService
 /// <returns></returns>
 public long TotalCount()
 {
-    return productRepository.NumberOfDocuments();
+    return _productRepository.NumberOfDocuments();
 }
 
 /// <summary>
@@ -57,7 +57,7 @@ public long TotalCount()
     if (numberOfObject is not { }) numberOfObject = 10;
         
         
-    var dataFromDb = productRepository.PaginationSearch(startIndex,numberOfObject);
+    var dataFromDb = _productRepository.PaginationSearch(startIndex,numberOfObject);
     var listOfModel = _mapper.Map<List<ProductModel>>(dataFromDb);
         
     return listOfModel;
@@ -70,7 +70,7 @@ public long TotalCount()
 /// <returns></returns>
 public ProductModel GetOne(string id)
 {
-    var dataFromDb = productRepository.GetOne(ObjectId.Parse(id));
+    var dataFromDb = _productRepository.GetOne(ObjectId.Parse(id));
     var model = _mapper.Map<ProductModel>(dataFromDb);
     return model;
 }
@@ -78,18 +78,18 @@ public ProductModel GetOne(string id)
 public void Insert(ProductModel model)
 {
     
-    productRepository.Insert(_mapper.Map<Product>(model));    
+    _productRepository.Insert(_mapper.Map<Product>(model));    
 }
 
 public void Update(ProductModel model)
 {
     
-    productRepository.Update(_mapper.Map<Product>(model));
+    _productRepository.Update(_mapper.Map<Product>(model));
 }
 
 public void Delete(ProductModel model)
 {
    
-    productRepository.Delete(_mapper.Map<Product>(model));
+    _productRepository.Delete(_mapper.Map<Product>(model));
 }
 }

@@ -94,7 +94,10 @@
                         @if (User.IsInRole("Admin"))
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-light" asp-area="Product" asp-controller="Home" asp-action="Index">Privacy</a>
+                                <a class="nav-link text-light" asp-area="Product" asp-controller="Home" asp-action="Index">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="Comment" asp-controller="Home" asp-action="Index">User Comments</a>
                             </li>
                         }
                         @if (User.Identity is {IsAuthenticated:true})

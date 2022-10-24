@@ -23,9 +23,19 @@
             <span asp-validation-for="Name" class="text-danger"></span>
         </div>
         <div class="mb-2">
-            <label asp-for="Product" class="form-label"></label>
-            <input asp-for="Product" class="form-control">
-            <span asp-validation-for="Product" class="text-danger"></span>
+            <label asp-for="Category" class="form-label"></label>
+            <select asp-for="Category" asp-items="@Model.Categories" class="form-control"></select>
+            <span asp-validation-for="Category" class="text-danger"></span>
+        </div>
+        <div class="mb-2">
+            <label asp-for="Type" class="form-label"></label>
+            <select asp-for="Type" asp-items="@Model.Types" class="form-control"></select>
+            <span asp-validation-for="Type" class="text-danger"></span>
+        </div>
+        <div class="mb-2">
+            <label asp-for="Review" class="form-label"></label>
+            <input asp-for="Review" class="form-control">
+            <span asp-validation-for="Review" class="text-danger"></span>
         </div>
 
         <div class="mb-2">
@@ -33,4 +43,3 @@
         </div>
     </form>
 </div>
-

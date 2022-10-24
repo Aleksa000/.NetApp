@@ -12,13 +12,13 @@ namespace USP.Web.Areas.Product.Controllers;
 public class HomeController : Controller
 {
 
-    private readonly IProductService productService;
-    private readonly IMapper mapper;
+    private readonly IProductService _productService;
+    private readonly IMapper _mapper;
 
     public HomeController(IProductService productService, IMapper mapper)
     {
-        this.productService = productService;
-        this.mapper = mapper;
+        _productService = productService;
+        _mapper = mapper;
     }
     /// <summary>
     /// index page
@@ -32,8 +32,8 @@ public class HomeController : Controller
         //productService.Insert(insertModel);
 
         var responseModel = new ResponsePaginationModel();
-        responseModel.Products = productService.PaginationSearch(startIndex, numberOfObject);
-        responseModel.TotalCounts = productService.TotalCount();
+        responseModel.Products = _productService.PaginationSearch(startIndex, numberOfObject);
+        responseModel.TotalCounts = _productService.TotalCount();
         responseModel.StartIndex = startIndex;
         return View(responseModel);
     }
@@ -69,7 +69,7 @@ public class HomeController : Controller
         
     };
 
-    return View(new ProductModel{Categories = mapper.Map<List<SelectListItem>>(categories),Types =  mapper.Map<List<SelectListItem>>(types)});
+    return View(new ProductModel{Categories = _mapper.Map<List<SelectListItem>>(categories),Types =  _mapper.Map<List<SelectListItem>>(types)});
 
 }
 
@@ -106,9 +106,9 @@ public class HomeController : Controller
     };
 
 
-    var model = productService.GetOne(productId);
-    model.Categories = mapper.Map<List<SelectListItem>>(categories);
-    model.Types = mapper.Map<List<SelectListItem>>(types);
+    var model = _productService.GetOne(productId);
+    model.Categories = _mapper.Map<List<SelectListItem>>(categories);
+    model.Types = _mapper.Map<List<SelectListItem>>(types);
     return View(model);
 
 }
@@ -121,8 +121,8 @@ public class HomeController : Controller
 public IActionResult Delete(string productId)
 {
     
-    var model = productService.GetOne(productId);
-    productService.Delete(model);
+    var model = _productService.GetOne(productId);
+    _productService.Delete(model);
     TempData["Response"] = true;
     TempData["ResponseMessage"] = "Success deleted";
     return RedirectToAction("Index");
@@ -145,7 +145,7 @@ public IActionResult Update(ProductModel model)
         return View(model);
 
     }
-    productService.Update(model);
+    _productService.Update(model);
     TempData["Response"] = true;
     TempData["ResponseMessage"] = "Success updated";
     
@@ -173,8 +173,8 @@ public IActionResult Update(ProductModel model)
     
     
 
-    model.Categories = mapper.Map<List<SelectListItem>>(categories);
-    model.Types = mapper.Map<List<SelectListItem>>(types);
+    model.Categories = _mapper.Map<List<SelectListItem>>(categories);
+    model.Types = _mapper.Map<List<SelectListItem>>(types);
     
     return View(model);
 }
@@ -194,7 +194,7 @@ public IActionResult Create(ProductModel model)
         return View(model);
 
     }
-    productService.Insert(model);
+    _productService.Insert(model);
     TempData["Response"] = true;
     TempData["ResponseMessage"] = "Success";
     
@@ -222,8 +222,8 @@ public IActionResult Create(ProductModel model)
     };
 
 
-    model.Categories = mapper.Map<List<SelectListItem>>(categories);
-    model.Types = mapper.Map<List<SelectListItem>>(types);
+    model.Categories = _mapper.Map<List<SelectListItem>>(categories);
+    model.Types = _mapper.Map<List<SelectListItem>>(types);
     
     return View(model);
 }

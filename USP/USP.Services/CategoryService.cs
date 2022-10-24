@@ -16,12 +16,12 @@ public interface ICategoryService
 }
 public class CategoryService : ICategoryService
 {
-    private readonly ICategoryRepository categoryRepository;
+    private readonly ICategoryRepository _categoryRepository;
     private readonly IMapper _mapper;
 
     public CategoryService(ICategoryRepository categoryRepository, IMapper mapper)
     {
-        this.categoryRepository = categoryRepository;
+        this._categoryRepository = categoryRepository;
         _mapper = mapper;
     }
 
@@ -31,7 +31,7 @@ public class CategoryService : ICategoryService
     /// <returns></returns>
     public List<CategoryModel> GetAll()
     {
-        var dataFromDb = categoryRepository.GetAll();
+        var dataFromDb = _categoryRepository.GetAll();
         var listOfModel = _mapper.Map<List<CategoryModel>>(dataFromDb);
         
         return listOfModel;
@@ -43,7 +43,7 @@ public class CategoryService : ICategoryService
     /// <returns></returns>
     public CategoryModel GetOne(string id)
     {
-        var dataFromDb = categoryRepository.GetOne(ObjectId.Parse(id));
+        var dataFromDb = _categoryRepository.GetOne(ObjectId.Parse(id));
         var model = _mapper.Map<CategoryModel>(dataFromDb);
         return model;
     }
@@ -51,18 +51,18 @@ public class CategoryService : ICategoryService
     public void Insert(CategoryModel model)
     {
     
-        categoryRepository.Insert(_mapper.Map<Category>(model));
+        _categoryRepository.Insert(_mapper.Map<Category>(model));
     }
 
     public void Update(CategoryModel model)
     {
      
-        categoryRepository.Update(_mapper.Map<Category>(model));
+        _categoryRepository.Update(_mapper.Map<Category>(model));
     }
 
     public void Delete(CategoryModel model)
     {
    
-        categoryRepository.Delete(_mapper.Map<Category>(model));
+        _categoryRepository.Delete(_mapper.Map<Category>(model));
     }
 }
