@@ -18,6 +18,8 @@ builder.Services.AddTransient<ICategoryService, CategoryService>();
 builder.Services.AddTransient<ICategoryRepository, CategoryRepository>();
 builder.Services.AddTransient<ICommentService, CommentService>();
 builder.Services.AddTransient<ICommentRepository, CommentRepository>();
+builder.Services.AddTransient<IWorkService, WorkService>();
+builder.Services.AddTransient<IWorkRepository, WorkRepository>();
 //nacin zivota odredjenog servisa
 #endregion
 

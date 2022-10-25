@@ -89,6 +89,9 @@
                                 <li class="nav-item">
                                     <a class="nav-link text-light" asp-area="Comment" asp-controller="Home" asp-action="Create">Leave a comment</a>
                                 </li>
+                                 <li class="nav-item">
+                                                                    <a class="nav-link text-light" asp-area="Work" asp-controller="Home" asp-action="Create">How we work?</a>
+                                                                </li>
                             </li>
                         }
                         @if (User.IsInRole("Admin"))
@@ -98,6 +101,9 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-light" asp-area="Comment" asp-controller="Home" asp-action="Index">User Comments</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="Work" asp-controller="Home" asp-action="Index">About company</a>
                             </li>
                         }
                         @if (User.Identity is {IsAuthenticated:true})

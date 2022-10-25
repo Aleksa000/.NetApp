@@ -140,6 +140,7 @@
       <Folder Include="Areas\Comment\Views\Shared" />
       <Folder Include="Areas\Product\Views\Shared" />
       <Folder Include="Areas\User\Views\Shared" />
+      <Folder Include="Areas\Work\Views\Shared" />
     </ItemGroup>
 
     <ItemGroup>
@@ -153,6 +154,9 @@
       <AdditionalFiles Include="Areas\Comment\Views\Home\Index.cshtml" />
       <AdditionalFiles Include="Areas\Comment\Views\_ViewImports.cshtml" />
       <AdditionalFiles Include="Areas\Comment\Views\_ViewStart.cshtml" />
+      <AdditionalFiles Include="Areas\Work\Views\Home\Create.cshtml" />
+      <AdditionalFiles Include="Areas\Work\Views\Home\Index.cshtml" />
+      <AdditionalFiles Include="Areas\Work\Views\Home\Update.cshtml" />
     </ItemGroup>
 
 </Project>

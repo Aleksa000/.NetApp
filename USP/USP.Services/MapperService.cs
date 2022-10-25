@@ -13,6 +13,7 @@ public class MapperService : Profile
         //product model
         CreateMap<ProductModel, Product>().ReverseMap();
         CreateMap<CommentModel, Comment>().ReverseMap();
+        CreateMap<WorkModel, Work>().ReverseMap();
         //category model
         CreateMap<CategoryModel, Category>().ReverseMap();
         //category model to select list 

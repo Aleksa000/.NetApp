@@ -1,0 +1,84 @@
+﻿@model ResponsePaginationModel
+@{
+    ViewData["Title"] = "Privacy How we works Page";
+}
+@{
+    var numberOfPages = Model.TotalCounts / 10;
+}
+  @if (TempData["ResponseMessage"] != null && TempData["Response"]!.Equals(true))
+        {
+            <div class="text-center text-success">
+                @TempData["ResponseMessage"]
+            </div>
+        }
+        else
+        {
+            <div class="text-center text-danger">
+                @TempData["ResponseMessage"]
+            </div>
+        }
+<table class="table-bordered col-md-12 mb-2">
+    <thead>
+    <th>Id</th>
+    <th>How we works</th>
+ 
+    
+    
+    </thead>
+    <tbody>
+    
+    @foreach (var item in Model.Works)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+        </tr>
+
+    }
+    </tbody>
+</table>
+<div class="ms-auto">
+    @if (Model.StartIndex > 0)
+    {
+        <a asp-action="Index" asp-area="Work" asp-controller="Home" asp-route-startIndex="@(Model.StartIndex-1)" class="btn btn-info btn-sm">Previous</a>
+    }
+    @if (numberOfPages >= 7)
+    {
+        for (int i = 0; i < 3; i++)
+        {
+
+            <a asp-action="Index" asp-area="Work" asp-controller="Home" asp-route-startIndex="@i" class="btn btn-info btn-sm">@(i + 1)</a>
+
+        }
+
+        if (Model.StartIndex > 3)
+        {
+            <span>...</span>
+            <a asp-action="Index" asp-area="Work" asp-controller="Home" asp-route-startIndex="@(Model.StartIndex - 1)" class="btn btn-info btn-sm">@(Model.StartIndex)</a>
+            //<a asp-action="Index" asp-area="Product" asp-controller="Home" asp-route-startIndex="@(Model.StartIndex - 1)" class="btn btn-info btn-sm">@(Model.StartIndex + 1)</a>
+            //<a asp-action="Index" asp-area="Product" asp-controller="Home" asp-route-startIndex="@(Model.StartIndex)" class="btn btn-info btn-sm">@(Model.StartIndex +2)</a>
+
+        }
+        <span>...</span>
+        for (long i = numberOfPages - 3; i < numberOfPages; i++)
+        {
+            <a asp-action="Index" asp-area="Work" asp-controller="Home" asp-route-startIndex="@i" class="btn btn-info btn-sm">@(i + 1)</a>
+        }
+
+    }
+    else
+    {
+        for (int i = 0; i < 7; i++)
+        {
+
+            <a asp-action="Index" asp-area="Work" asp-controller="Home" asp-route-startIndex="@i" class="btn btn-info btn-sm">@(i + 1)</a>
+
+        }
+    }@if (Model.StartIndex < numberOfPages)
+     {
+         <a asp-action="Index" asp-area="Work" asp-controller="Home" asp-route-startIndex="@(Model.StartIndex+1)" class="btn btn-info btn-sm">Next</a>
+     }
+</div>
+<h1>
+    @numberOfPages
+</h1>

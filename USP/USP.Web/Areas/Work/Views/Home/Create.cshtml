@@ -1,0 +1,34 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@using USP.Data
+@model WorkModel
+@{
+    ViewData["Title"] = "Comment about us Page";
+}
+<div class="">
+    <form asp-action="Create">
+        @if (TempData["ResponseMessage"] != null && TempData["Response"]!.Equals(true))
+        {
+            <div class="text-center text-success">
+                @TempData["ResponseMessage"]
+            </div>
+        }
+        else
+        {
+            <div class="text-center text-danger">
+                @TempData["ResponseMessage"]
+            </div>
+        }
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <h5 class="text-white">Comment how we work</h5>
+        <div class="mb-2">
+            <textarea asp-for="Name" class="form-label"></textarea>
+            <br/>
+            <span asp-validation-for="Name" class="text-danger"></span>
+            <br/>
+        </div>
+        <div class="mb-2">
+            <button type="submit" class="btn btn-primary">Submit</button>
+           
+        </div>
+    </form>
+</div>
