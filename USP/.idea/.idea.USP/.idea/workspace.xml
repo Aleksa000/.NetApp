@@ -5,7 +5,7 @@
     <projectFile profileName="USP.Web">USP.Web/USP.Web.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b57b1d1b-f079-4b7d-94fe-0ee10b39491e" name="Changes" comment="" />
+    <list default="true" id="b57b1d1b-f079-4b7d-94fe-0ee10b39491e" name="Changes" comment="sitni detalji" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,6 +105,7 @@
       <workItem from="1666616504526" duration="10256000" />
       <workItem from="1666704660572" duration="3387000" />
       <workItem from="1666734639545" duration="2040000" />
+      <workItem from="1666768304570" duration="411000" />
     </task>
     <task id="LOCAL-00001" summary="mala izmena teksta">
       <created>1664536170800</created>
@@ -309,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666736511023</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="sitni detalji">
+      <created>1666768700088</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1666768700088</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +338,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="v1" />
     <MESSAGE value="n" />
     <MESSAGE value="i" />
     <MESSAGE value="a" />
@@ -355,7 +362,8 @@
     <MESSAGE value="rola admina,korisnika,paginacija,dodavanje jos jednog polja za podatke.zavrsavanje projektnog zadatka" />
     <MESSAGE value="privodjenje kraju projekta" />
     <MESSAGE value="zavrsen projekat" />
-    <option name="LAST_COMMIT_MESSAGE" value="zavrsen projekat" />
+    <MESSAGE value="sitni detalji" />
+    <option name="LAST_COMMIT_MESSAGE" value="sitni detalji" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
